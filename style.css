@@ -1,0 +1,66 @@
+body {
+    /*background-color: color de fondo*/
+    background-color: #ebeac2;
+    /*font-family: tipografía*/
+    font-family: 'Arimo', sans-serif;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(134, 101, 58);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    /*se pueden usar porcentajes para que las 
+    imágenes se ajusten a la ventana, en caso de que esta se modifique*/
+    /*anchura*/
+    width: 40%;
+    /*altura*/
+    height: 300px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+/*el "." sirve para llamar a las clases, indicar que 
+esa clase será la que debe de modificarse*/
+
+.gblanco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uno{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.listas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(97, 97, 56);
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+a{
+    color:rgb(146, 66, 37);
+    /*línea debajo de la ancla*/
+    text-decoration: none;
+}

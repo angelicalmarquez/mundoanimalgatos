@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--DOCTYPE-declaración de archivo tipo HTML-->
+<html lang="es">
+    <!--html-encapsular todo nuestro código, lang (language)-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título de la página web-->
+    <title>Mundo animal</title>
+    <link rel="stylesheet" href="/style.css">
+    <!--rel-relación que hay con el documento, href, con qué documento se va a ligar-->
+    
+    <!--Link obtenido desde internet al momento de elegir una tipografía desde la web-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Gatos</h1> 
+    <p> Como sabemos, existen distintos tipos de gatos, los domésticos y los salvajes, en este trabajo 
+        hablaremos de los domésticos, los cuales han estado presentes desde hace siglos, siendo mencionados
+        en tiempos como los del Antiguo Egipto. Los gatos domésticos, sea cual sea su raza, son todos miembros 
+        de una misma especie, Felis silvestris catus, que mantiene una relación con los humanos desde hace mucho 
+        tiempo.
+    </p>
+    <p>Se dice que algunos gatos salvajes pasaron a ser domésticos debido a que se acercaban a las comunidades al ver     
+        roedores, su instinto era cazarlos y los habitantes se quedaban maravillados ante esos sucesos, así fue como comenzaron a ganar su simpatía y se comenzaron a domesticar. 
+    <br>Sus habilidades para cazar son natas, sean gatos salvajes o domésticos, sin embargo, estas son más eficaces en la
+        noche debido a que su visión se vuelve más nitida en la oscuridad. De igual forma, su visión se complementa con 
+        su particular habilidad auditiva, sus movimientos ágiles y rápidos y su gran equilibrio gracias a su larga cola. 
+    </p>
+    <p class="gblanco">
+        <img src="https://hospitalveterinariodonostia.com/wp-content/uploads/2022/02/Personalidad-gatos.png" alt="Gato blanco">
+    </p>
+    <hr>
+    <!--hr- línea de separación-->
+    <h2> Menú</h2>
+    <!--ÍNDICE CON ANCLAS-->
+    <!--a-ancla, ayuda a realizar "anclas" menús, scroll-->
+    <div class="menu">
+        <a href="#pandas">Sueños de los gatos</a><br>
+        <br><a href="#ajolotes">Su alimentación</a><br>
+        <br><a href="#gatos">Datos curiosos</a>
+    </div><br>
+    <p class="uno"><img src="data:image/jpeg;base64,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" 
+    alt="Gato amarillo y gato gris">
+    <!--    Foto insertada desde la computadora-->
+   <img src="/images/Gato oliendo flor.jpg" alt="Gato gris oliendo una flor">
+    </p>
+    <hr>
+    <!--Div-divisiones-->
+    <div>
+        <!--LISTAS-->
+        <h4>Razas de gatos más comunes</h4>
+        <!--OL-ordered list-->
+        <ol>
+            <!--LI-item list-->
+            <!--li*elementos que tengamos, para así no poner todos manualmente 
+                (Funciona con todos los elementos de HTML)-->
+            <li>Gato persa: Se adapta bien en los hogares y, además, le encanta estar rodeado de gente; se comporta bien con los niños y otros animales como los perros.</li>
+            <li>Gato azul ruso: Su rasgo más característico es su  pelo azul grisáceo y sus ojos verdes, destaca por su apariencia sofisticada e inteligencia. Además, es muy cariñoso y se adapta muy bien con los mayores y con los niños.</li>
+            <li>Gato siamés: Tiene un cuerpo esbelto y un pelaje más fino, así como una combinación de colores muy característica. Su color predominante es el beige o blanco, pero sus patas, hocico, cola y orejas son más oscuras y sus ojos azul celeste.</li>
+            <li>Gato angora turco: Se suele confundir con el persa, pero este último es de un mayor tamaño. El Angora es mediano, de pelo largo y de diferentes colores.</li>
+            <li>Gato siberiano: Tiene tres capas de pelo con las que se protege de las bajas temperaturas. Su pelo puede ser de varios colores o incluso con rayas o manchas y sus ojos pueden ser de color miel, verdes o azules. Es una de las razas de gatos más sociable, cariñoso y juguetón</li>
+            <li>Gato maine coon: Es una de las razas de gatos más grande. Puede llegar a pesar más de 10 kilos y medir hasta 70cm de largo. Es un felino sociable, algo perezoso y es capaz de maullar en diferentes tonos, como si cantara.</li>
+            <li>Gato bengalí: Cuenta con un cuerpo robusto y musculoso. Su pelaje atigrado lo convierte en un cruce entre gato doméstico y gato leopardo. Es un felino curioso, cariñoso y de espíritu salvaje. Tiene un carácter fuerte y siempre le gusta estar activo.</li>
+        </ol>
+    </div>
+    <div>    
+        <h4>Razas más cariñosas</h4>
+        <!--UL-unordered list-->
+        <ul>
+            <li>Siamés</li>
+            <li>De angora</li>
+            <li>Abisinio</li>
+        </ul>
+
+        <h4>Razas más grandes</h4>
+        <!--UL-unordered list-->
+        <ul>
+            <li>Maine coon</li>
+            <li>Ragdoll</li>
+            <li>Siberiano</li>
+        </ul>
+
+        <h4>Razas más pequeñas</h4>
+        <!--UL-unordered list-->
+        <ul>
+            <li>Birmano</li>
+            <li>Mau egipcio</li>
+        </ul>
+    </div>
+    <hr>
+    <!--p-PÁRRAFOS-->
+    <h3 id="pandas">Curiosidades del sueño REM</h3>
+    <!--id- tiene que ser exacto al ancla al que lo queramos ligar-->
+    <p class="p-pandas">
+        <!--class, clase de párrafo, sirve para darle un nombre a determinado párrafo-->
+        En el sueño REM, los músculos humanos no se mueven mucho a pesar de la intensa actividad mental que impulsa nuestros sueños. Este estado de atonía hace que el cuerpo no represente nuestros sueños por muy reales que parezcan. Michael Jouvet, quien estudia el fenómeno del sueño, descubrió que, en los gatos, una estructura del tronco cerebral (protuberancia) parecía regular el sueño REM y producir una parálisis parcial. <br>
+        Sin embargo, al eliminar partes del puente de Varolio, Jouvet provocó un cambio drástico en el comportamiento. Con sus cerebros sumidos en el sueño REM, los gatos comenzaron a moverse como si estuvieran despiertos, cazando, saltando, acicalándose y defendiéndose agresivamente de amenazas invisibles. <br>
+        Jouvet denominó a este periodo sueño paradójico, en el que el cuerpo está quieto pero la mente permanece totalmente activa. Esto proporcionó una ventana a lo que ocurría en los cerebros dormidos de los gatos. <br>
+        <img src="https://www.publico.es/yo-animal/wp-content/uploads/2023/01/gatos-duermen-mucho-3-1024x683.jpg" alt="gato durmiendo">
+    </p>
+
+    <h3 id="ajolotes">Cómo alimentar debidamente a tu gato</h3>
+    <p>
+        Son animales completamente carnívoros por lo que una dieta rica en carne les dará los nutrientes que necesitan para mantenerse saludables y tener la fuerza necesaria para realizar sus actividades.
+        <br>
+        Adicionalmente suelen comer algunas plantas, aunque esto puede variar entre un gato y otro; si aún no tienes idea de qué darle a tu gato de comer hay opciones a día de hoy que facilitan la tarea, como la comida casera o los alimentos tanto húmedos como deshidratados, siempre conteniendo carne para evitar deficiencias.
+        <br>
+        Igualmente, se alimenta de lo que caza, no es carroñero, y basa su dieta en la ingesta de roedores, pájaros, reptiles y, ocasionalmente, pequeños insectos y peces. <br>
+        <img src="https://st3.depositphotos.com/1177973/14747/i/600/depositphotos_147476089-stock-photo-cute-cat-eating.jpg" alt="comiendo">
+    </p>
+
+    <h3 id="gatos">Curiosidades gatunas</h3>
+    <p>Los gatos son uno de los animales más populares en los hogares de todo el mundo y todos nos habremos dado cuenta de que son un poco distantes y tienen su propio espacio, a veces pasan de nosotros, son unos dormilones, les gusta las alturas... Pero hay muchas cosas que no conoces sobre ellos: <br>
+        1. Existen más de 500 millones de gatos domésticos en el mundo de 40 razas.
+        <br>
+        2. Los gatos hacen unos 100 sonidos y los perros solamente 10.
+        <br>
+        3. Son los animales con mayor oído.
+        <br>
+        4. Un gato que nace con un ojo azul normalmente es sordo de la oreja más cercana.
+        <br>
+        5. El gato más longevo vivió 34 años.
+        <br>
+        6. Pasan el 70% de su vida durmiendo.
+        <br>
+        7. La orina de tu gato brilla en la oscuridad cuando la iluminas con luz negra.
+        <br>
+        8. Los gatos se comunican con el movimiento de sus colas. 
+        <br>
+        9. Pueden sentir el peligro... incluso durmiendo.
+        <br>
+        10. La mayoría de las hembras son diestras, mientras que los gatos machos suelen ser zurdos. <br>
+        <img src="https://img.freepik.com/fotos-premium/lindo-gato-sorprendido_288539-996.jpg?w=2000" alt="sorprendente">
+    </p>
+</body>
+</html>
